@@ -1,0 +1,8 @@
+<div class="container">
+    <div id="target">
+        Right click / Touch hold to open the ContextMenu
+    </div>
+    <ejs-contextmenu #contextmenu target='#target' [items]='menuItems' showItemOnClick="true"
+        [animationSettings]="animation" (beforeItemRender)="itemBeforeEvent($event)" (created)="onCreated()">
+    </ejs-contextmenu>
+</div>
