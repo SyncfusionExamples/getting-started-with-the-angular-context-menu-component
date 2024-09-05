@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+
+.container {
+    padding-left: 30%;
+    padding-top: 50px;
+}
+
+#target {
+    border: 1px dashed;
+    height: 100px;
+    padding-top: 7%;
+    text-align: center;
+    width: 50%;
+}
+
+.e-cut {
+    content: '\e264';
+}
+
+.e-paste {
+    content: '\e959';
+}
+
+.e-copy {
+    content: '\e263';
+}
+
+.custom {
+    float: left;
+    font-style: italic;
+    font-size: 10px;
+}
